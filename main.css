@@ -420,6 +420,10 @@ footer a {
         display: flex;
     }
 
+    #sobre-a-loja img {
+        padding-right: 30px;
+    }
+
     .container-grid {
         column-gap: 10px;
     }
