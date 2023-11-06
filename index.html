@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 'maximum-scale=1'controla a largura da página no dispositivo, evitando o comportamento solto e balançante -->
+    <title>TechGub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--fonte dos demais-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@1,600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--fonte específica para o título-->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>T e c h G u b</h1>
+            
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <form>
+                <input type="search" placeholder="Busque por um produto">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li>
+                        <a href="#sobre-a-loja">SOBRE A LOJA</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">PRODUTOS</a>
+                    </li>
+                    <li>
+                        <a href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="sobre-a-loja">
+            <article class="introducao">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="images/capa-sobre.jpg" alt="Introdução">
+                        </td>
+                        
+                        <td style="vertical-align: top;">
+                            <h2>Sobre a loja</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum nostrum sapiente voluptates facere consequatur ipsum eveniet maiores at voluptatibus architecto, perspiciatis quae dolor quia natus veniam quod, adipisci voluptas quo cupiditate vel hic vitae odit!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam exercitationem debitis aliquam voluptates excepturi fugit consequuntur ipsa culpa quibusdam labore quae, cumque, vel praesentium odit unde numquam.</p>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <section id="produtos">
+            <main>
+                <h2 style="border-bottom: 2px solid rgba(15, 91, 214, 0.176);">Produtos</h2>
+                <div class="container">
+                    <div class="container-computadores">
+                        <h3>Computadores e Acessórios</h3>
+                        <div class="container-grid">
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/teclado.jpg" alt="Teclado da laptop">
+                                    <h3>Teclado Magic</h3>
+                                    <p>Sem fio, recarregável, bateria interna durável e emparelhamento automatico com o Mac</p>
+                                    <strong>R$ 1.365,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                            
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/apple-tv.jpg" alt="Monitor da Apple">
+                                    <h3>Apple TV 4k</h3>
+                                    <p>Siri Remote com entrada USB-C e controle usando o clickpad sensível ao toque ou apenas a voz</p>
+                                    <strong>R$ 1.700,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                            
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/mouse.jpg" alt="Mouse da Apple">
+                                    <h3>Mouse Magic</h3>
+                                    <p>Superfície Multi-Touch, da qual você pode navegar entre páginas da internet fazendo gestos simples</p>
+                                    <strong>R$ 810,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                            
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/monitor.jpg" alt="Monitor da Apple">
+                                    <h3>Studio Display</h3>
+                                    <p>7 câmera superavançada com sensor de 12 MP, ângulo de visão de 122º, chip A13 e 3 portas USB-C</p>
+                                    <strong>R$ 12.999,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+    
+                    <div class="container-eletronicos">
+                        <h3>Gadgets e Eletrônicos</h3>
+                        <div class="container-grid">
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/smartwatch.jpg" alt="Smartwatch">
+                                    <h3>SmartWatch Y68</h3>
+                                    <p>Monitoramento de saúde, análise do sono, contagem de etapas, bateria de 7 dias</p>
+                                    <strong>R$ 1.130,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                            
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/drone.jpg" alt="Drone Mini">
+                                    <h3>Drone Mini DJI</h3>
+                                    <p>Sensores de visão, sistema de GPS estável para voos, gravação automatica e captura vídeos</p>
+                                    <strong>R$ 4.078,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                            
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/fone.jpg" alt="Fone de ouvido">
+                                    <h3>Fone de ouvido JBL</h3>
+                                    <p>Escute por até 57 horas, bateria carregável em 2 horas e atenda suas chamadas com os botões</p>
+                                    <strong>R$ 378,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                            
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/polaroid.jpg" alt="Câmera Polaroid">
+                                    <h3>Câmera Polaroid</h3>
+                                    <p>Modo manual, dupla exposição, pintura leve, temporizador automático e kit de filtro de lente</p>
+                                    <strong>R$ 650,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+    
+                    <div class="container-inteligencia">
+                        <h3>Doméstico</h3>
+                        <div class="container-grid">
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/lampada.png" alt="Smart Lamp">
+                                    <h3>Lâmpada inteligente</h3>
+                                    <p>Ajuste a temperatura de cor e a intensidade, luz branca para se concentrar ou quente para relaxar</p>
+                                    <strong>R$ 120,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+    
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/assistente.jpg" alt="Assistente virtual">
+                                    <h3>Smart speaker Alexa</h3>
+                                    <p>Pergunte a previsão do tempo, defina timers com a voz e obtenha respostas</p>
+                                    <strong>R$ 678,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+    
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/camera.png" alt="Câmera de segurança">
+                                    <h3>Câmera de segurança</h3>
+                                    <p>Imagens com alta definição 1080p, notificação em tempo real e armazenamento de até 512 GB</p>
+                                    <strong>R$ 560,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+    
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/aspirador.jpg" alt="Apirador de pó robótico">
+                                    <h3>Apirador de pó robótico</h3>
+                                    <p>Sensor anti quedas, base de carregamento inteligente e 3 modos de limpeza + função manual</p>
+                                    <strong>R$ 930,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+    
+                    <div class="container-office">
+                        <h3>Home Office</h3>
+                        <div class="container-grid">
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/cadeira-frete.png" alt="Cadeira executiva">
+                                    <h3>Cadeira executiva</h3>
+                                    <p>Costa de termoplástico, apoio de cabeça em poliuretano e assento com regulação em 6 posições</p>
+                                    <strong>R$ 2.300,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+    
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/microfone.png" alt="Microfone">
+                                    <h3>Microfone HyperX</h3>
+                                    <p>Qualidade sonora com 4 opções de captação de áudio e antivibração para amortecer sons</p>
+                                    <strong>R$ 1.140,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+    
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/webcam.jpg" alt="Webcam">
+                                    <h3>Webcam Logitech</h3>
+                                    <p>HD Pro, chamadas de vídeo Full HD 1080p/30fps, correção de luz HD, funciona com Skype</p>
+                                    <strong>R$ 450,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+    
+                            <article class="produto">
+                                <a href="#">
+                                    <img src="images/mesa.jpg" alt="Webcam">
+                                    <h3>Mesa de Escritório</h3>
+                                    <p>Material MDP, bordas ABS, sapatas reguladoras de nível, 73,5 cm de altura e 140 cm de comprimento</p>
+                                    <strong>R$ 435,00</strong>
+                                    <button type="submit">Adicionar ao carrinho</button>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2 style="border-bottom: 2px solid rgba(15, 91, 214, 0.176);">Fale conosco</h2>
+                <form>
+                    <input type="text" placeholder="Seu nome" name="nome">
+                    <input id='phone' type="tel" placeholder="Telefone" name="telefone">
+                    <input type="email" placeholder="Email" name="email">
+                    <input id='produto-interesse' type="text" placeholder="Produto de interesse" name="produtoDeInteresse">
+                    <input id='mensage' type="text" placeholder="Mensagem sobre o produto" name="mensagem">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>2023&copy; TechGub - Todos os direitos reservados</p>
+            <div class="social-links">
+                <a href="#">
+                    <img src="images/faceboook.png" alt="Facebook">
+                </a>
+                <a href="#">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+                <a href="#">
+                    <img src="images/whatsapp.png" alt="Whatsapp">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
